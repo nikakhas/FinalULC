@@ -1,0 +1,54 @@
+C++ function
+-------------------------------------------------------------
+
+<function> '<returnType><functionName>(<parameterList>){<Block>}'
+func(functionreturnType,functionName,parameterList,block,s) =>
+
+if rT(returnType,s) == error:
+return error()
+else:
+if fN(functionName,s) === error:
+return error;
+else :
+if pL (parameterList,s)
+return error;
+else :
+If pL(parameterList,s)== error
+Return error;
+else if:
+if Block (Block,s)== error
+return error;
+else
+return Block (Block,s)
+
+----------------------------------------------------------
+
+C switch
+
+----------------------------------------------------------
+
+switch (switch(expression){case : <value> : {<stmt>;} default:
+{<stmt>;},s)
+if variable(expression,s) == error
+return error()
+else variable(expression,s)
+case value:
+if eX(value,s)== error
+return error;
+else if (statement(stmt,s) == error
+return error;
+else default(default,s) == error
+return error ;
+else
+return statement(stmt,s)
+
+-------------------------------------------------------------
+
+Go if
+
+-------------------------------------------------------------
+
+if(if boolexpr {stmt},s ) = if(boolexpr,s) == error
+return error;
+else boolean(boolexpr,s) == true
+return statement(stmt,s)
